@@ -1,0 +1,1 @@
+ float sum(int n) { int i; float n1, n2, n3, t = 0; n1 = 1; n2 = 2; for(i = 1; i <= n; i++) { t = t + n2 / n1; n3 = n2; n2 = n1 + n2; n1 = n3; } return t; } void main() { int n; float s; scanf("%d", &n); s = sum(n); printf("\n The result is: %f", s); }
